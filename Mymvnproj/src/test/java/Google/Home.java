@@ -36,6 +36,7 @@ public class Home
 	}
 	public void search() throws Exception
 	{
+		System.out.println("searching value");
 		driver.findElement(By.id("lst-ib")).sendKeys("selenium");
 		driver.findElement(By.id("lst-ib")).sendKeys(Keys.ENTER);
 		//driver.findElement(By.xpath("//input[starts-with(@name,'btnG') or starts-with(@name,'btnK')]")).click();	
